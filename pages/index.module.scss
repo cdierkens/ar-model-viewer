@@ -1,0 +1,28 @@
+.Main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.QrReader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+
+  & > section {
+    height: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.Canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
